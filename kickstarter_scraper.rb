@@ -5,7 +5,7 @@
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # description: project.css("p.bbcard_blurb").text
 # location: project.css("ul.project-meta").text
-# project.css("ul.project_meta li a.data-location").text
+# project.css("ul.project_meta li a.data-location")[1].text
 
 require "nokogiri"
 require "pry"
